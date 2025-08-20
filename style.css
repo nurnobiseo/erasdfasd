@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.logo-aria {
+    width: 50%;
+}
+.logo-aria img {
+    width: 400px;
+    height: 100px;
+    padding-left: 100px;
+}
+
+.menu-aria {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    
+}
+
+.sarwar {
+    background-image: url('bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.sarwar-left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sarwar-right {
+    width: 50%;
+    height: auto;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-aria button {
+    width: 100px;
+    height: 50px;
+}
+
+.btn-learn {
+    background-color: orangered;
+}
+.btn-learn a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size:16px ;
+}
+.btn-hire a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:16px ;
+}
+
+.btn-learn:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+
+
+.btn-learn:hover a {
+   color:black; }
+
+h1 {
+    font-size: 50;
+}
